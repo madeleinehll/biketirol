@@ -58,5 +58,7 @@ L.control.scale({
     imperial: false,
 }).addTo(map);
 
-let controlElevation = L.control.elevation({}).addTo(map);
+let controlElevation = L.control.elevation({
+    time:false,
+}).addTo(map);
 controlElevation.load("data/etappe18.gpx");
