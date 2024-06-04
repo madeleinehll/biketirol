@@ -5,7 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        html,
+        body,
+        #map,
+        #elevation-div {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
 
+        #map {
+            height: 75%;
+        }
+
+        #elevation-div {
+            height: 25%;
+            font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+        }
+    </style>
     <title>Bike Trail Tirol Beispiel</title>
 
     <!-- Font Awesome -->
@@ -28,7 +47,13 @@
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'
         rel='stylesheet' />
+    <!-- leaflet-ui -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-ui@0.6.0/dist/leaflet-ui.js"></script>
 
+    <!-- leaflet-elevation -->
+    <link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.css" />
+    <script src="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.js"></script>
     <!-- eigene Stile und Hauptskript -->
     <link rel="stylesheet" href="main.css">
     <script defer src="main.js"></script>
@@ -96,7 +121,8 @@
             <nav>
                 <a href="https://www.tirol.at/reisefuehrer/sport/mountainbiken/bike-trail-tirol">Bike Trail Tirol
                     (Online Reiseführer Tirol)</a> |
-                <a href="https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/a-bike-trail-tirol-mayrhofen-lanersbach">Bike
+                <a
+                    href="https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/a-bike-trail-tirol-mayrhofen-lanersbach">Bike
                     Trail Tirol Etappe 18: Mayrhofen - Lanersbach|</a>
                 <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_elektronischekartetirol">eGrundkarte
                     Tirol</a>
