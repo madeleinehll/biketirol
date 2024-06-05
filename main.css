@@ -71,3 +71,7 @@ footer nav {
     margin-right: 0.5em;
 }
 
+.bike-tirol {
+  --ele-area:#3D9970;
+  --ele-bg: white;
+}
