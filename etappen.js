@@ -119,4 +119,4 @@ const ETAPPEN= [
       "titel": "Imst - Marienbergjoch - Ehrwald",
       "weblink": "https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/a-bike-trail-tirol-imst-marienbergjoch-ehrwald"
     }
-   ]
+   ];
