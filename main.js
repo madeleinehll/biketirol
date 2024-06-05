@@ -67,10 +67,16 @@ let pulldown = document.querySelector("#pulldown");
 
 for (let etappe of ETAPPEN) {
     let status = "";
-      if ( etappe.nr == "7") {
+      if ( etappe.nr == "18") {
           status = "selected";
       }
     pulldown.innerHTML += `
         <option value="${etappe.user}">Etappe ${etappe.nr}: ${etappe.titel}</option>
     `;
+}
+
+pulldown.onchange = function(evt) {
+    let username = evt.target.value;
+    let url = `https://${madeleinehll}.github.io/biketirol`;
+    window.location.href  = url;
 }
