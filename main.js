@@ -62,3 +62,6 @@ let controlElevation = L.control.elevation({
     theme: bike-tirol
 }).addTo(map);
 controlElevation.load("data/etappe18.gpx");
+
+let pulldown = document.querySelector("#pulldown");
+console.log("Pulldown: " , pulldown);
