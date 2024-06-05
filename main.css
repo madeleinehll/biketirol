@@ -44,11 +44,6 @@ article {
     border: 1px solid gray;
 }
 
-#profile {
-    margin-top: 0.3em;
-    border: 1px solid gray;
-}
-
 footer {
     font-family: "Roboto", sans-serif;
     font-size: 0.9em;
@@ -69,6 +64,11 @@ footer nav {
     border: 1px solid silver;
     border-radius: 10px;
     margin-right: 0.5em;
+}
+
+#profile {
+    margin-top: 0.3em;
+    border: 1px solid gray;
 }
 
 .bike-tirol {
